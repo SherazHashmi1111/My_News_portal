@@ -1,0 +1,120 @@
+/* Common style */
+* {
+	margin: 0;
+	padding: 0%;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+html {
+	font-size: 62.5%;
+}
+body p {
+	font-size: 1.6rem;
+	text-align: justify;
+	position: relative;
+}
+/* End of Common style */
+/* Navbar */
+.navbar {
+	width: 100%;
+	height: 6rem;
+	background-color: rgb(219, 219, 219);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.brand-wrapper {
+	margin-left: 5rem;
+}
+.brand-wrapper a {
+	font-size: 2rem;
+	color: #999;
+}
+.brand-wrapper a:hover {
+	color: #000;
+	transition: color 1s;
+}
+.nav-links {
+	margin-right: 5rem;
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav-links a {
+	font-size: 1.6rem;
+	color: #000;
+	letter-spacing: .1rem;
+}
+.nav-links a:hover {
+	color: rgb(7, 139, 139);
+	transition: color .5s;
+}
+/* End of Navbar */
+.container {
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+	width: 100%;
+	background-color: rgb(7, 139, 139);
+	position: absolute;
+	bottom: 0%;
+	margin-top: 3rem;
+}
+.footer p {
+	font-size: 1.2rem;
+	color: #fff;
+}
+h1 {
+	font-size: 3.2rem;
+}
+/* compose page */
+.compose-section h1 {
+	color: rgb(7, 139, 139);
+	margin: 2rem 0;
+}
+.compose-form {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.compose-form label {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin: 1rem 0;
+}
+.compose-form input {
+	height: 2.4rem;
+	font-size: 1.6rem;
+	padding: .5rem 1rem;
+	font-weight: 600;
+	margin: 1rem 0;
+}
+.compose-form textarea {
+	padding: .5rem 1rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 3rem;
+}
+.compose-form button {
+	font-size: 1.4rem;
+	font-weight: 400;
+	width: 8rem;
+	height: 3rem;
+	border: none;
+	border-radius: 3rem;
+	background-color: royalblue;
+	color: #fff;
+	letter-spacing: .1rem;
+	font-weight: 600;
+	cursor: pointer;
+	text-shadow: .1rem .1rem .1rem rgba(255, 255, 255, 0.644);
+	box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0.438);
+}
+/* End of compose page */
